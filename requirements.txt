@@ -1,0 +1,103 @@
+# If VS CODE got corrupted
+cd N:\04_Technologies\05_AI\GenAI\Python
+rmdir venv
+python -m venv venv
+venv\Scripts\activate
+python -m pip install --upgrade pip setuptools wheel
+pip install pandas numpy pyarrow scikit-learn matplotlib seaborn tensorflow transformers streamlit ipykernel
+
+#-----------------------------------------------------------------------
+ipykernel
+streamlit --> streamlit run 02-Py_Advanced/Assignments/Streamlit_App.py
+numpy
+pandas
+matplotlib.pyplot
+seaborn
+tensorflow
+scikit-learn
+xgboost
+catboost
+mysql.connector
+requests
+API --> https://developer.themoviedb.org/reference/getting-started
+API --> https://api.themoviedb.org/3/genre/movie/list?api_key=94be661f71e5fa72a4f3ec6cdf1258f3&language=en
+LangChain --> https://docs.langchain.com/oss/python/deepagents/overview
+
+## MACHINE LEARNING TOPICS
+- What is Artificial Intelligence and Machine Learning
+- AI with ML with NLP in DL via GenAI
+- Types of machine Learning
+- Tensors in Machine Learning
+- Machine Learning Development Life Cycle
+- Building an Demo Machine Learning Model 1
+- Building an Demo Machine Learning Model 2
+- Building an Demo Machine Learning Model 3
+- Framing the Business Problem to ML Problem
+- Data Gathering using csv
+- JSON,DB, Data Gathering & Role in Agents: AI & AI App Development
+- Data Gathering using API for AI App Agents/SAAS Development
+- Data Gathering using API and Publishing on Kaggle/Github Project
+- Data Cleaning in ML/AI Data Management/Fine Tuning AI Models & NLP
+- Automated Data Cleaning and Importance while building Langchain Applications
+- Automated Data Cleaning
+- Exploratory Data Analysis Steps
+- Exploratory Data Analysis (Feature Engineering)
+- Feature Engineering
+- Feature Encoding
+- One Hot Encoder
+- Column Transformer
+- Feature Scaling - Standardization & Normalization
+- ML Pipeline
+- Machine Learning Algorithms - Linear Regression
+- Logistic Regression
+- Naive Bayes 
+- K Nearest Neighbors (KNN)
+- Metrics in Regression - RMSE, MAE, MSE
+- Overfitting, Underfitting, Variance & Bias
+- Classification Metrics: Accuracy, Precision, Recall
+- Support Vector Machine
+- Decision Tree Algorithm
+- Train vs Validation vs Test Data & Cross Validation
+- Bagging & Boosting & Random Forest Bagging Algorithm
+- Unsupervised Machine Learning
+- K Means Clustering
+- Hierarchical Clustering
+- DBSCAN Clustering
+- Anomaly Detection
+
+## Natural Language Processing TOPICS
+- Natural Language Processing Introduction
+- NLP Pipeline Overview
+- NLP Daily Tasks, Approach for it And Challenges in it
+- NLP Pipeline Initial Steps
+- Feature Engineering and Modelling For Rule Based vs Generative AI Chatbots with Deployment in Further Pipeline
+- Recommendation System Project Overview
+- Getting Started with Project
+- Preprocessing in Recommendation System
+- NLP Vectorization and Building the Recommendation System
+- Launching Recommendation System as a Website
+- Connecting to GitHub and Deployment in Render
+- Basic Text Cleaning in NLP
+- Advance Text Cleaning in NLP
+- Basic Text Preprocessing in NLP
+- Text Vectorization Overview
+- One Hot Encoding and Bag of Words in Text Vectorization
+- N - Grams and TFIDF Text Vectorization
+- Word2Vec Vector Embedding Overview
+- Types of Word2Vec Techniques and Neural Networks Overview
+- Training our own Word2Vec Model on our personal Data
+
+# LARGE LANGUAGE MODELS (LLM) & GENAI TOPICS
+- ANN
+- RNN (BIDirectinal)
+- LSTM
+- GRU 
+- Transformer
+- langchain
+- groq LLAMA
+- HuggingFace
+- Astra.datastax
+- CODELLAMA WITH OLLAMA
+
+# Deployment
+
